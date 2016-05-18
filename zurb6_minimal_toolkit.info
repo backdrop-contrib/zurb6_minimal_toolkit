@@ -1,0 +1,22 @@
+type = layout
+name = Zurb6 Minimal Toolkit
+version = 1.0.0
+backdrop = 1.x
+
+; Specify regions for this layout.
+regions[content]    = Content
+
+; The default region automatically receives the "Main Content" block if needed.
+default region = content
+
+; Include a file for special preprocessing of this layout's variables.
+; file = zurb6_minimal_toolkit.php
+
+; Default stylesheets for this layout
+stylesheets[all][] = z6-flex.css
+
+; Preview
+preview = zurb6_minimal_toolkit.png
+
+; Include the Bootstrap4 Grid System
+; libraries[] = bootstrap4-gs

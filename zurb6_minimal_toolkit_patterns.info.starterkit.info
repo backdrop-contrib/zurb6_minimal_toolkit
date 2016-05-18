@@ -1,0 +1,53 @@
+type = layout
+name = Zurb6 Minimal Toolkit Patterns
+version = 1.0.0
+backdrop = 1.x
+
+; Specify regions for this layout.
+regions[header]     = Header
+regions[top]        = top
+regions[content]    = content
+regions[sidebar]    = sidebar
+regions[sidebar2]   = sidebar2
+regions[sidebar3]   = sidebar3
+regions[half1]      = half1
+regions[half2]      = half2
+regions[third1]     = third1
+regions[third2]     = third2
+regions[third3]     = third3
+regions[quarter1]   = quarter1
+regions[quarter2]   = quarter2
+regions[quarter3]   = quarter3
+regions[quarter4]   = quarter4
+regions[half3]      = half3
+regions[half4]      = half4
+regions[third4]     = third4
+regions[third5]     = third5
+regions[third6]     = third6
+regions[quarter5]   = quarter5
+regions[quarter6]   = quarter6
+regions[quarter7]   = quarter7
+regions[quarter8]   = quarter8
+regions[statement1] = statement1
+regions[statement2] = statement2
+regions[statement3] = statement3
+regions[secondary1] = secondary1
+regions[secondary2] = secondary2
+regions[bottom]     = bottom
+regions[calltoaction] = calltoaction
+regions[footer]     = footer
+
+; The default region automatically receives the "Main Content" block if needed.
+default region = content
+
+; Include a file for special preprocessing of this layout's variables.
+; file = zurb6_minimal_toolkit_patterns.php
+
+; Default stylesheets for this layout
+stylesheets[all][] = z6-flex.css
+
+; Preview
+preview = zurb6_minimal_toolkit_patterns.png
+
+; Include the Bootstrap4 Grid System
+; libraries[] = bootstrap4-gs
