@@ -63,13 +63,19 @@ USAGE
 This does not provide anything "out of the box".
 
 To view the regions this provides:
+
 -- rename zurb6_minimal_toolkit_patterns.info.starterkit to zurb6_minimal_toolkit_patterns.info
+
 -- choose this layout, and place blocks into the regions.
 
 To use the region patterns this module provides:
+
 -- rename zurb6_minimal_toolkit_patterns.info.starterkit to [your_layout_name].info
+
 -- rename layout--zurb6-minimal-toolkit-patterns.tpl.php to [your_layout_name].tpl.php
+
 -- in your_layout_name.info file, delete the layout regions you do not want, and possibly add any extra regions you desire.
+
 -- in your_layout_name.tpl.php file, delete the layout regions you do not want, and possibly add any extra regions you desire.
 
 LICENSE
